@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+startDir=$PWD
+
+cd src/fvOptions
+wmake libso
+cd $startDir

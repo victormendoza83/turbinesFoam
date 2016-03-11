@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+startDir=$PWD
+
+cd $startDir/tutorials/crossFlowTurbineAL
+./Allclean
+
+cd $startDir/tutorials/axialFlowTurbineAL
+./Allclean
+
+cd $startDir/tutorials/actuatorLine/simpleFoam
+./Allclean
+
+cd $startDir/tutorials/actuatorLine/pimpleFoam
+./Allclean
+
+cd $startDir
